@@ -1,4 +1,0 @@
-скопировать файлы config, gemfile, gemfile.lock в другаю папку.
-скопировать файлы config, gemfile, gemfile.lock в папку с phoenix.
-запустить bundle exec jekyll algolia push
-возможно придется временно переместить index.html и _pages 
