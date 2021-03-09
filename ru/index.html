@@ -276,7 +276,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta itemprop="headline" content="pages.front.title">
     
     
-    
+    <meta itemprop="dateModified" content="March 08, 2021">
 
     <section class="page__content" itemprop="text">
        <div class="page__hero--overlay" style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/images/phe-background.jpg');">
@@ -457,12 +457,11 @@ PhoenixMiner.exe -epool eth-eu2.nanopool.org:9999 -worker <span class="phe-grn">
 
 
 <section class="phe-check">
-	<div class="phe-title"><a id="check">How to check how much you’ve mined?</a></div>
+	<div class="phe-title"><a id="check">Как проверить, сколько вы намайнили?</a></div>
 	<div class="phe-vi2">
-<p>Now that your miner is set up, you’re able to sit back and watch as your video cards gain you passive income every day in the form of Ethereum. It is important to consider any variable costs that you may incur during the mining to determine your profitability. Variable costs may be electrical costs, maintenance costs, pool fees, dev fees, exchange fees, etc.</p>
-	<p>Every pool has a different interface but the principle stays the same. You’ll need to go to your pools website and type in your public wallet address. Let us use pheeremine pool as an example.</p>
-	<p>You type your public wallet address in the search bar and you’ll be able to see all of the information about your Ethereum mining efforts. 
-	In the case of pheeremine pool once your balance reaches 0.01 ETH it will get sent to your wallet address that you’ve typed into the start.bat file earlier.</p>
+	Теперь, когда ваш майнер настроен, вы можете сидеть сложа руки и смотреть, как ваши видеокарты ежедневно приносят вам пассивный доход в виде Ethereum. Важно учитывать любые переменные затраты, которые вы можете понести во время майнинга, чтобы определить свою прибыльность. Переменными затратами могут быть затраты на электроэнергию, затраты на обслуживание, комиссию за пул, комиссию за использование программы, комиссию на вывод средств и т. д.
+<p>У каждого пула свой интерфейс, но принцип остается неизменным. Вам нужно будет зайти на сайт своего пула и ввести адрес своего общедоступного кошелька. В качестве примера возьмем пул Nanopool.</p>
+<p>Введите адрес своего общедоступного кошелька в строке поиска, и вы сможете увидеть всю информацию о ваших усилиях по добыче Ethereum. В случае пула Nanopool, когда ваш баланс достигнет 0,01 ETH, он будет отправлен на адрес вашего кошелька, который вы ввели ранее в файл <code>start.bat</code>.</p>
 	</div>
 <div class="phe-pc">
 </div>
@@ -476,24 +475,35 @@ PhoenixMiner.exe -epool eth-eu2.nanopool.org:9999 -worker <span class="phe-grn">
 	</div>
 </section>
 -->
-<section class="phe-faq">
-<div class="phe-title"><a id="FAQ">FAQ</a></div>
+<section class="phe-faq" itemscope itemtype="https://schema.org/FAQPage">
+<div class="phe-title" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><a id="FAQ">Часто задаваемые вопросы</a></div>
+	<div class="phe-vi2" itemprop="name">
+	<p class="phe-st">Как работает майнинг Ethereum?</p>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<div itemprop="text">Результатом майнинга называется система Proof of Work (доказательство работы). Однако майнинг Ethereum означает больше, чем увеличение объема Эфира в обращении. Он также необходим для защиты сети Ethereum, поскольку она создает, проверяет, публикует и распространяет блоки в блокчейне.
+</div>
+</div>
+
+<div class="phe-st" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">Что вам нужно для майнинга Ethereum?</div>
 	<div class="phe-vi2">
-	<p class="phe-st">How does Ethereum mining work?</p>
-The result of digital mining is called proof of work system. ... However, mining Ethereum means more than increasing the volume of Ether in circulation. It is also necessary for securing the Ethereum network as it creates, verifies, publishes, and propagates blocks in the blockchain.
-	<p class="phe-st">What do you need to mine Ethereum?</p>
+	<p class="phe-st" itemprop="name">Что нужно для майнинга Ethereum?</p>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<div itemprop="text">
 		<ol>
-			<li>An Ethereum wallet to hold all of your newly found currency;</li>
-			<li>GPU drivers;</li>
-			<li>A mining application (PhoenixMiner's Dual Ethereum  AMD+NVIDIA GPU Miner);</li>
-			<li>A mining pool address if you're going to mine within a mining pool;</li>
-			<li>A graphics card (GPU) with at least 4gb of RAM.</li>
+			<li>Кошелек Ethereum для хранения всей вашей недавно найденной валюты;</li>
+			<li>Драйверы для видеокарты;</li>
+			<li>Приложение для майнинга (PhoenixMiner AMD + NVIDIA GPU Miner);</li>
+			<li>Адрес майнинг-пула, если вы собираетесь майнить на пуле;</li>
+			<li>Видеокарта (GPU) с оперативной памятью не менее 4 ГБ.</li>
 		</ol>
-	<p class="phe-st">How many Ethereum can be mined?</p>
-	Most Ethereum blocks are around 2mb. A new Ethereum block is created every 14 seconds. 18 Million Ether are mined every year.
+</div>
+</div>
+
+	<p class="phe-st">Сколько Ethereum можно добыть?</p>
+	Большинство блоков Ethereum имеют размер около 2 МБ. Новый блок Ethereum создается каждые 14 секунд. Ежегодно добывается 18 миллионов Эфира.
 	</div>
-</section>
-</section></article>
+
+</div></section></section></article>
 </div> 
     </section>
   </article>
