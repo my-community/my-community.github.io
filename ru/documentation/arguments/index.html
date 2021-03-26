@@ -524,7 +524,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title">
-<i class="fas fa-file-alt"></i> On this page</h4></header>
+<i class="fas fa-file-alt"></i> Содержание</h4></header>
               <ul class="toc__menu">
   <li><a href="#%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%BF%D1%83%D0%BB%D1%83">Команды для подключения к пулу</a></li>
   <li><a href="#%D0%BE%D0%B1%D1%89%D0%B8%D0%B5-%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B-%D0%BF%D1%83%D0%BB%D0%BE%D0%B2">Общие параметры пулов</a></li>
@@ -835,7 +835,19 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 
 <h2 id="варианты-для-каждй-видеокарты-отдельно">Варианты для каждй видеокарты отдельно</h2>
 
-<p>Некоторые параметры PhoenixMiner могут предоставлять либо одинаковые настройки для всех графических процессоров, либо разные настройки для каждого из графических процессоров. Например, чтобы указать <code>-gt</code> значение для всех карт, которые вы должны написать, <code>-gt 90</code> но если вы хотите указать другое значение GT для каждой из карт, используйте что-то вроде этого: <code>-gt 20,15,40,90,90</code> для майнинг-фермы с пятью графическими процессорами. Это установит GT равным 20 для первого графического процессора, 15 для второго графического процессора и так далее. Если вы укажете меньше значений, чем у вас есть графические процессоры, остальные графические процессоры будут использовать значение по умолчанию для параметра. Вы также можете использовать другой, более гибкий способ указания разных значений для разных карточек. Лучше всего это пояснить на примере:<code>-cclock *:1100,1-3:1090,4:1300</code> - здесь мы устанавливаем частоту ядра на 1100 МГц для всех карт, кроме карт с 1 по 3, на которых она установлена ​​на 1090 МГц, и карты 4 на 1300 МГц. Часть перед двоеточием (:) - это селектор, который выбирает графические процессоры, для которых применяется значение после двоеточия. Селектор может быть: &lt;ul&gt; &lt;li&gt;индекс одиночного графического процессора: например, <code>5:1000</code> устанавливает 1000 для 5-го графического процессора&lt;/li&gt; &lt;li&gt;диапазон индексов графического процессора: например, <code>2-5:1200</code> устанавливает 1200 для графических процессоров 2, 3, 4 и 5&lt;/li&gt; &lt;li&gt;звездочка, которая устанавливает значение для всех графических процессоров&lt;/li&gt; &lt;li&gt;label <code>amd</code> или <code>nvidia</code> : например, <code>amd:1090</code> устанавливает значение 1090 для всех карт AMD&lt;/li&gt; &lt;li&gt;произвольная строка, которая начинается с буквы и может содержать буквы, числа и звездочки, что соответствует имени графического процессора, указанному PhoenixMiner. Пример: <code>gtx*1070:+500</code> установит значение +500 для всех карт, в названии которых есть «gtx» и «1070», а между ними что-то есть. Это будет соответствовать «Nvidia GeForce GTX 1070», но не «Nvidia GeForce 1070».&lt;/li&gt; &lt;/ul&gt; Обратите внимание, что если данной карте соответствует более одного селектора, учитывается только последний. Пример: <code>-cclock *:1100,1-4:1090,2:1300</code> установим карту 2 на 1300; карты 1,3 и 4 по 1090; а у остальных карт частота ядра 1100 МГц.</p>
+<p>Некоторые параметры PhoenixMiner могут предоставлять либо одинаковые настройки для всех графических процессоров, либо разные настройки для каждого из графических процессоров. Например, чтобы указать <code>-gt</code> значение для всех карт, которые вы должны написать, <code>-gt 90</code> но если вы хотите указать другое значение GT для каждой из карт, используйте что-то вроде этого: <code>-gt 20,15,40,90,90</code> для майнинг-фермы с пятью графическими процессорами. Это установит GT равным 20 для первого графического процессора, 15 для второго графического процессора и так далее. Если вы укажете меньше значений, чем у вас есть графические процессоры, остальные графические процессоры будут использовать значение по умолчанию для параметра. Вы также можете использовать другой, более гибкий способ указания разных значений для разных карточек. Лучше всего это пояснить на примере:<code>-cclock *:1100,1-3:1090,4:1300</code> - здесь мы устанавливаем частоту ядра на 1100 МГц для всех карт, кроме карт с 1 по 3, на которых она установлена ​​на 1090 МГц, и карты 4 на 1300 МГц. Часть перед двоеточием (:) - это селектор, который выбирает графические процессоры, для которых применяется значение после двоеточия.</p>
+
+<p>Селектор может быть:</p>
+
+<ul>
+<li>индекс одиночного графического процессора: например, <code>5:1000</code> устанавливает 1000 для 5-го графического процессора</li> 
+<li>диапазон индексов графического процессора: например, <code>2-5:1200</code> устанавливает 1200 для графических процессоров 2, 3, 4 и 5</li> 
+<li>звездочка, которая устанавливает значение для всех графических процессоров</li> 
+<li>label <code>amd</code> или <code>nvidia</code> : например, <code>amd:1090</code> устанавливает значение 1090 для всех карт AMD</li> 
+<li>произвольная строка, которая начинается с буквы и может содержать буквы, числа и звездочки, что соответствует имени графического процессора, указанному PhoenixMiner. Пример: <code>gtx*1070:+500</code> установит значение +500 для всех карт, в названии которых есть «gtx» и «1070», а между ними что-то есть. Это будет соответствовать «Nvidia GeForce GTX 1070», но не «Nvidia GeForce 1070».</li> 
+</ul>
+
+<p>Обратите внимание, что если данной карте соответствует более одного селектора, учитывается только последний. Пример: <code>-cclock *:1100,1-4:1090,2:1300</code> установим карту 2 на 1300; карты 1,3 и 4 по 1090; а у остальных карт частота ядра 1100 МГц.</p>
 
         
       </section>
@@ -884,7 +896,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
   
   
     <div class="page__related">
-      <h4 class="page__related-title">You may also enjoy</h4>
+      <h4 class="page__related-title">Вам также может понравиться</h4>
       <div class="grid__wrapper">
         
           
@@ -1061,7 +1073,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
   
 
   <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Метки: </strong>
     <span itemprop="keywords">
     
       
@@ -1082,7 +1094,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
   
 
   <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Разделы: </strong>
     <span itemprop="keywords">
     
       
@@ -1094,21 +1106,21 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 
 
         
-		  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="26.03.2021">26.03.2021</time></p>
+		  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения:</strong> <time datetime="26.03.2021">26.03.2021</time></p>
         
 
       </footer>
 
       <section class="page__share">
   
-    <h4 class="page__share-title">Share on</h4>
+    <h4 class="page__share-title">Поделиться</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=miner_phoenix&amp;text=PhoenixMiner%26%2358%3B+%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B+-+%D0%90%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B+%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9+%D0%A1%D1%82%D1%80%D0%BE%D0%BA%D0%B8+%5B2021%5D%20https%3A%2F%2Fphoenixminer.org%2Fdocumentation%2Farguments%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=miner_phoenix&amp;text=PhoenixMiner%26%2358%3B+%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B+-+%D0%90%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B+%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9+%D0%A1%D1%82%D1%80%D0%BE%D0%BA%D0%B8+%5B2021%5D%20https%3A%2F%2Fphoenixminer.org%2Fdocumentation%2Farguments%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fphoenixminer.org%2Fdocumentation%2Farguments%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fphoenixminer.org%2Fdocumentation%2Farguments%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fphoenixminer.org%2Fdocumentation%2Farguments%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fphoenixminer.org%2Fdocumentation%2Farguments%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться LinkedIn" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -1116,10 +1128,10 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
   <nav class="pagination">
     
       <a href="/blog/binance-pool/" class="pagination--pager" title="Phoenix Miner Binance: Настройка для Майнинга Ethereum
-">Previous</a>
+">Предыдущая</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="#" class="pagination--pager disabled">Следующая</a>
     
   </nav>
  
