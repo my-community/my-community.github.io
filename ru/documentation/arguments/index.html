@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Phoenix Miner: Команды</title>
+<!-- begin _includes/seo.html --><title>PhoenixMiner: Команды - Аргументы Командной Строки [2021]</title>
 <meta name="description" content="Описаны все команды и аргументы командной строки Феникс Майнера">
 
 
@@ -14,7 +14,7 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="PhoenixMiner">
-<meta property="og:title" content="Phoenix Miner: Команды">
+<meta property="og:title" content="PhoenixMiner: Команды - Аргументы Командной Строки [2021]">
 <meta property="og:url" content="https://phoenixminer.org/documentation/arguments/">
 
 
@@ -27,7 +27,7 @@
 
 
   <meta name="twitter:site" content="@miner_phoenix">
-  <meta name="twitter:title" content="Phoenix Miner: Команды">
+  <meta name="twitter:title" content="PhoenixMiner: Команды - Аргументы Командной Строки [2021]">
   <meta name="twitter:description" content="Описаны все команды и аргументы командной строки Феникс Майнера">
   <meta name="twitter:url" content="https://phoenixminer.org/documentation/arguments/">
 
@@ -46,7 +46,7 @@
 
 
 
-  <meta property="article:modified_time" content="2021-03-08T00:00:00+00:00">
+  <meta property="article:modified_time" content="2021-03-26T00:00:00+00:00">
 
 
 
@@ -170,7 +170,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 
 
     <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
 
     
@@ -180,7 +180,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-        <a class="site-title" href="/">
+        <a class="site-title" href="/ru">
           PhoenixMiner
           
         </a>
@@ -221,7 +221,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
         </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
+          <span class="visually-hidden">Выпадающее меню</span>
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
@@ -494,15 +494,15 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Phoenix Miner: Команды">
+    <meta itemprop="headline" content="PhoenixMiner: Команды - Аргументы Командной Строки [2021]">
     <meta itemprop="description" content="Описаны все команды и аргументы командной строки Феникс Майнера">
     <meta itemprop="datePublished" content="March 08, 2021">
-    <meta itemprop="dateModified" content="March 08, 2021"> 
+    <meta itemprop="dateModified" content="March 26, 2021"> 
 	
     <div class="page__inner-wrap">
       
         <header>
-          <!-- <h1 id="page-title" class="page__title" itemprop="headline">Phoenix Miner: Команды
+          <!-- <h1 id="page-title" class="page__title" itemprop="headline">PhoenixMiner: Команды - Аргументы Командной Строки [2021]
 </h1> -->
 		  <h1 id="page-title" class="page__title" itemprop="headline">Phoenix Miner: Команды
 </h1>
@@ -512,7 +512,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 
 
 
-  18 minute read
+  18 мин на чтение
 </p>
           
 		  
@@ -741,10 +741,10 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 <h2 id="команды-для-управления-майнингом">Команды для управления майнингом</h2>
 
 <dl> 
-<dt>-amd </dt> <dd> Используйте только карты AMD </dd>
-<dt>-acm </dt> <dd> Включите вычислительный режим AMD на поддерживаемых графических процессорах. Это эквивалентно нажатию <code>y</code> в консоли майнера. </dd>
-<dt>-nvidia </dt> <dd> Используйте только карты Nvidia </dd>
-<dt>-gpus &lt;123 ..n&gt; </dt> <dd> Используйте только указанные графические процессоры (если их больше 10, разделите индексы запятыми) </dd>
+<dt>-amd </dt> <dd> Используйте только карты AMD.</dd>
+<dt>-acm </dt> <dd> Включите вычислительный режим AMD на поддерживаемых видеокартах. Это эквивалентно нажатию клавиши <code>y</code> в консоли майнера. </dd>
+<dt>-nvidia </dt> <dd> Используйте только карты Nvidia.</dd>
+<dt>-gpus &lt;123 ..n&gt; </dt> <dd> Используйте только указанные видеокарты (если их больше 10, разделите индексы запятыми).</dd>
 <dt>-mi &lt;n&gt; </dt> <dd> Установите интенсивность майнинга (от 0 до 14; 12 по умолчанию для новых ядер). Вы можете указать эту опцию для каждого графического процессора. </dd>
 <dt>-gt &lt;n&gt; </dt> <dd> Установите параметр настройки GPU (от 6 до 400). Значение по умолчанию 15. Вы можете изменить параметры настройки в интерактивном режиме с <code>+</code> и <code>-</code> ключами в окне консоли шахтера. Вы можете указать эту опцию для каждого графического процессора. Если вы не укажете <code>-gt</code> или укажете значение 0, майнер будет использовать автонастройку для определения наилучшего значения GT. Обратите внимание, что когда графический процессор использует двойной майнинг, он игнорирует <code>-gt</code> значения и <code>-sci</code> вместо них использует . </dd>
 <dt>-sci &lt;n&gt; </dt> <dd> Установите интенсивность двойного майнинга (от 1 до 1000). Значение по умолчанию - 30. По мере увеличения значения <code>-sci</code> хешрейт вторичной монеты будет увеличиваться, но цена будет заключаться в более высоком энергопотреблении и / или более низком хешрейте ethash. Вы можете изменить этот параметр в интерактивном режиме с <code>+</code> и <code>-</code> ключами в окне консоли шахтера. Вы можете указать эту опцию для каждого графического процессора. Если вы установите <code>-sci</code> значение 0, майнер будет использовать автонастройку для определения наилучшего значения, пытаясь максимизировать хешрейт ethash независимо от хешрейта вторичной монеты. </dd>
@@ -910,7 +910,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 
 
 
-  3 minute read
+  3 мин на чтение
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">Краткий гайд как настроить программу на Binance Pool.
@@ -943,7 +943,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 
 
 
-  2 minute read
+  2 мин на чтение
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">
@@ -983,7 +983,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 
 
 
-  1 minute read
+  1 мин на чтение
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">
@@ -1026,7 +1026,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 
 
 
-  2 minute read
+  2 мин на чтение
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">
@@ -1094,7 +1094,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 
 
         
-		  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="08.03.2021">08.03.2021</time></p>
+		  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="26.03.2021">26.03.2021</time></p>
         
 
       </footer>
@@ -1104,7 +1104,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=miner_phoenix&amp;text=Phoenix+Miner%26%2358%3B+%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B%20https%3A%2F%2Fphoenixminer.org%2Fdocumentation%2Farguments%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=miner_phoenix&amp;text=PhoenixMiner%26%2358%3B+%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B+-+%D0%90%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B+%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9+%D0%A1%D1%82%D1%80%D0%BE%D0%BA%D0%B8+%5B2021%5D%20https%3A%2F%2Fphoenixminer.org%2Fdocumentation%2Farguments%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fphoenixminer.org%2Fdocumentation%2Farguments%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
@@ -1157,39 +1157,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
         <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
-        <div class="page__footer-follow">
-  <!-- 
-  
-  <ul class="social-icons"> -->
-    <!--  -->
-      <!-- <li><strong>Follow:</strong></li> -->
-    <!--  -->
-
-    <!--  -->
-      <!--  -->
-        <!--  -->
-          <!-- <li><a href="https://www.facebook.com/xmrltc" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li> -->
-        <!--  -->
-      <!--  -->
-        <!--  -->
-          <!-- <li><a href="https://www.facebook.com/ethltc" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li> -->
-        <!--  -->
-      <!--  -->
-        <!--  -->
-          <!-- <li><a href="https://www.facebook.com/btcidol" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li> -->
-        <!--  -->
-      <!--  -->
-    <!--  -->
-
-    <!-- <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li> -->
-  <!-- </ul> 
-  
-  -->
-</div>
-
-
-<!-- footer-->
-<section class="phe-foot">
+        <section class="phe-foot">
 	<div class="">
 		<div class="phe-flex">
 			<div class="foot-itm community">
@@ -1275,9 +1243,6 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 	</div>
 	
 </section>
-
-
-
       </footer>
     </div>
 
@@ -1286,7 +1251,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 
 
 <!-- Including InstantSearch.js library and styling -->
-<script src="/assets/js/instantsearch.min.js"></script>
+<script src="/assets/js/instantsearch/instantsearch.min.js"></script>
 <link rel="preload" href="/assets/css/instantsearch/instantsearch.min.css" as="style" onload="this.rel='stylesheet'">
 <link rel="preload" href="/assets/css/instantsearch/instantsearch-theme-algolia.min.css" as="style" onload="this.rel='stylesheet'">
 
