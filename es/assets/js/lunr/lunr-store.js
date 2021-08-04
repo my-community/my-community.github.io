@@ -23,7 +23,7 @@ var store = [{
         "url": "https://phoenixminer.org/download/5.1b/",
         "teaser": "https://phoenixminer.org/assets/images/thumbs/500x300.png"
       },{
-        "title": "Phoenix Miner - Setup (Easy Tutorial) [2020]",
+        "title": "Phoenix Miner - Setup (Easy Tutorial) [2021]",
         "excerpt":"A short guide on how to set up PhoenixMiner    Video Guide   Here is a short video on Phoenixminer documentation.        Step 1: Download and Set up a Miner   Step 2: Fill your ETH address in the “wallet” line   Step 3: Start the Miner!       Settings for PhoenixMiner:   PhoenixMiner.exe -pool eth-eu2.nanopool.org:9999 -wal YOUR_ADDRESS -worker RIG_ID -epsw x -mode 1 -Rmode 1 -log 0 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -tstop 89 -tstart 79 -fanmin 30 -coin eth pause    Use YOUR_ADDRESS!   Example:  0x0d1fcf34b35a42cbaefd258b107483a06cce815b   If you want, you can Change RIG_ID in the bat file.   Specify the name of the rig as you want it to be shown in miner’s statistics page. This field is not mandatory. You could leave it empty.   Length of RIG_ID - Maximum 32 characters. Use English letters, numbers and symbols “-“ and “_”.   Example: MYrig-1   Example    PhoenixMiner.exe -pool eth-eu2.nanopool.org:9999 -wal 0xdBa4C80E8a1298228D31D822dAe069Fd624D7B16 -worker Phoenix -epsw x -mode 1 -Rmode 1 -log 0 -mport 0 -etha 0 -tt 79 -tstop 89 -tstart 79 -fanmin 30 -coin eth pause    ","categories": ["blog"],
         "tags": ["PhoenixMiner"],
         "url": "https://phoenixminer.org/blog/setup/",
