@@ -4,7 +4,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/documentation/arguments/</loc>
     
-    <lastmod>2021-03-08T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-08T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -13,7 +13,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/blog/binance-pool/</loc>
     
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-01T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -22,7 +22,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/download/5.4b/</loc>
     
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-12T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -31,7 +31,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/download/5.3b/</loc>
     
-    <lastmod>2020-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-27T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -40,7 +40,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/download/5.2e/</loc>
     
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-22T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -49,7 +49,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/download/5.2d/</loc>
     
-    <lastmod>2020-11-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-18T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -58,7 +58,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/documentation/quick-start/</loc>
     
-    <lastmod>2020-11-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-17T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -67,7 +67,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/download/5.2c/</loc>
     
-    <lastmod>2020-11-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-13T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -76,7 +76,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/download/5.2b/</loc>
     
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-09T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -85,7 +85,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/download/5.2a/</loc>
     
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-09T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -94,7 +94,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/download/5.1c/</loc>
     
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-09T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -103,7 +103,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/download/latest/</loc>
     
-    <lastmod>2020-09-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-24T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -112,7 +112,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/blog/setup/</loc>
     
-    <lastmod>2020-09-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-24T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -121,7 +121,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/download/5.1b/</loc>
     
-    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-16T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -130,7 +130,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/download/5.0e/</loc>
     
-    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-16T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -139,7 +139,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/documentation/faq/</loc>
     
-    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-16T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -148,7 +148,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/documentation/Introduction/</loc>
     
-    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-16T00:00:00-04:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -161,7 +161,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/about/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -173,7 +173,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/legal/cookie/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -185,7 +185,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/legal/disclaimer/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -197,7 +197,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -221,7 +221,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/legal/privacy/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -235,7 +235,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/legal/terms/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -247,7 +247,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/tags/phoenixminer/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -259,7 +259,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/categories/documentation/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -271,7 +271,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/categories/download/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -283,7 +283,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/categories/blog/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -295,7 +295,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/blog/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -307,7 +307,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/documentation/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -319,7 +319,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/download/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -331,7 +331,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/download/page2/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -343,7 +343,7 @@
   <url>
     <loc>https://phoenixminer.org/zh/video/</loc>
       
-        <lastmod>2022-05-14T15:10:49+00:00</lastmod>
+        <lastmod>2026-10-02T11:01:53-04:00</lastmod>
        
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -30,7 +30,7 @@ var store = [{
         "teaser": "https://phoenixminer.org/assets/images/thumbs/500x300.png"
       },{
         "title": "下载 Latest Version PhoenixMiner [2021]",
-        "excerpt":"Getting Started With Ethereum Mining Latest version is 6.2c SHA256: c0e187a0974b337fe6990e9a929c472dcf491282b8171322291a0ed6c1c653c3 *PhoenixMiner6.2c.exe (Download for Linux) Download Now (Windows x64) (mirror) we are actively working on bringing many new features in the future releases. Download and install You can download PhoenixMiner 6.2c from here: https://cutt.ly/FnmfdH7 https://cutt.ly/eGJpAMA Note that you need the...","categories": ["download"],
+        "excerpt":"Getting Started With Ethereum Mining Latest version is 6.2c SHA256: c0e187a0974b337fe6990e9a929c472dcf491282b8171322291a0ed6c1c653c3 *PhoenixMiner6.2c.exe (Download for Linux) Download Now (Windows x64) (mirror) we are actively working on bringing many new features in the future releases. Download and install You can download PhoenixMiner 6.2c from here: https://bitcointalk.org/index.php?topic=2647654.0 https://bitcointalk.org/index.php?topic=2647654.0 Note that you need the...","categories": ["download"],
         "tags": ["PhoenixMiner"],
         "url": "https://phoenixminer.org/download/latest/",
         "teaser": "https://phoenixminer.org/assets/images/thumbs/500x300.png"
@@ -60,7 +60,7 @@ var store = [{
         "teaser": "https://phoenixminer.org/assets/images/thumbs/500x300.png"
       },{
         "title": "Phoenix Miner - Setup [Quick Tutorial]",
-        "excerpt":"we are actively working on bringing many new features in the future releases. You can download PhoenixMiner 6.2c from here: https://cutt.ly/FnmfdH7 Linux: Under Linux you need to replace PhoenixMiner.exe with ./PhoenixMiner in the command-line examples below. Ethash mining command-line examples Here are the command line parameters for some of the...","categories": ["documentation"],
+        "excerpt":"we are actively working on bringing many new features in the future releases. You can download PhoenixMiner 6.2c from here: https://bitcointalk.org/index.php?topic=2647654.0 Linux: Under Linux you need to replace PhoenixMiner.exe with ./PhoenixMiner in the command-line examples below. Ethash mining command-line examples Here are the command line parameters for some of the...","categories": ["documentation"],
         "tags": ["PhoenixMiner"],
         "url": "https://phoenixminer.org/documentation/quick-start/",
         "teaser": "https://phoenixminer.org/assets/images/thumbs/500x300.png"

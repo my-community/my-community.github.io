@@ -60,7 +60,7 @@ var store = [{
         "teaser": "https://phoenixminer.org/assets/images/thumbs/500x300.png"
       },{
         "title": "Phoenix Miner - Setup [Quick Tutorial]",
-        "excerpt":"we are actively working on bringing many new features in the future releases. You can download PhoenixMiner 6.2c from here: https://cutt.ly/FnmfdH7 Linux: Under Linux you need to replace PhoenixMiner.exe with ./PhoenixMiner in the command-line examples below. Ethash mining command-line examples Here are the command line parameters for some of the...","categories": ["documentation"],
+        "excerpt":"we are actively working on bringing many new features in the future releases. You can download PhoenixMiner 6.2c from here: https://bitcointalk.org/index.php?topic=2647654.0 Linux: Under Linux you need to replace PhoenixMiner.exe with ./PhoenixMiner in the command-line examples below. Ethash mining command-line examples Here are the command line parameters for some of the...","categories": ["documentation"],
         "tags": ["PhoenixMiner"],
         "url": "https://phoenixminer.org/documentation/quick-start/",
         "teaser": "https://phoenixminer.org/assets/images/thumbs/500x300.png"
